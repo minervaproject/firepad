@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" />
   <!-- Firebase -->
-  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
 
   <!-- CodeMirror -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
@@ -33,11 +33,13 @@
   <script>
     function init() {
       //// Initialize Firebase.
-      //// TODO: replace with your Firebase project configuration.
       var config = {
-        apiKey: "AIzaSyC_JdByNm-E1CAJUkePsr-YJZl7W77oL3g",
-        authDomain: "firepad-tests.firebaseapp.com",
-        databaseURL: "https://firepad-tests.firebaseio.com"
+        apiKey: "",
+        authDomain: "cheng-doceditor2.firebaseapp.com",
+        databaseURL: "https://cheng-doceditor2.firebaseio.com",
+        projectId: "cheng-doceditor2",
+        storageBucket: "cheng-doceditor2.appspot.com",
+        messagingSenderId: "885346570055"
       };
       firebase.initializeApp(config);
 
